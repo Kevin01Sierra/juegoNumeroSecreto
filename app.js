@@ -47,9 +47,9 @@ function limpiarCaja() {
 }
 
 function deshabilitarControles(){
-    document.querySelector('#valorUsuario').setAttribute('disabled', true); // Deshabilitar el input
-    document.querySelector('#intentar').setAttribute('disabled', true); // Deshabilitar el botón de intentar
-    document.querySelector('#reiniciar').setAttribute('disabled', true); // Deshabilitar el botón de reiniciar
+    document.querySelector('#valorUsuario').style.display = 'none'; // Deshabilitar el input
+    document.querySelector('#intentar').style.display = 'none'; // Deshabilitar el botón de intentar
+    document.querySelector('#reiniciar').style.display = 'none'; // Deshabilitar el botón de reiniciar
 }
 
 function habilitarControles(){
